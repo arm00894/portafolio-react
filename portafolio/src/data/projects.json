@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Dashboard de analítica",
+    "tech": ["React", "Chart.js", "CSS"],
+    "description": "Panel para visualizar métricas de negocio en tiempo real.",
+    "type": "frontend",
+    "image": "/Images/Dashboard.png"
+  },
+  {
+    "id": 2,
+    "name": "Landing para startup",
+    "tech": ["React", "Tailwind", "Netlify"],
+    "description": "Página de presentación con formulario de contacto y despliegue CI/CD.",
+    "type": "frontend",
+    "image": "/Images/Landing.png"
+  },
+  {
+    "id": 3,
+    "name": "E-commerce demo",
+    "tech": ["React", "Context API", "Fake API"],
+    "description": "Catálogo de productos con carrito y filtros.",
+    "type": "fullstack",
+    "image": "/Images/Ecomerce.png"
+  }
+]
