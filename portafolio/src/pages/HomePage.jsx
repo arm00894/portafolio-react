@@ -16,7 +16,7 @@ export default function HomePage() {
 
         <div className="home-hero__photo-wrapper">
           <img
-            src="public/images/MiPerfil.jpg"
+            src="/images/profile.jpg"
             alt="Alejandro Roca"
             className="home-hero__photo"
           />
