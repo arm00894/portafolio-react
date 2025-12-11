@@ -1,4 +1,4 @@
-export default function Header({ theme, setTheme }) {
+export default function Header() {
   return (
     <header className="header">
       <div>
