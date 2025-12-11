@@ -11,10 +11,6 @@ export default function Header({ theme, setTheme }) {
           Portafolio personal · Desarrollador Frontend
         </p>
       </div>
-
-      <button type="button" className="btn" onClick={handleClick}>
-        {theme === "light" ? "Modo oscuro" : "Modo claro"}
-      </button>
     </header>
   );
 }

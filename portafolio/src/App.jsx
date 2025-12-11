@@ -8,16 +8,15 @@ import Footer from "./components/Footer";
 
 export default function App() {
     const [currentPage, setCurrentPage] = useState(PAGES.HOME);
-    const [theme, setTheme] = useState("light");
 
     // Cambia el titulo del documento
     useEffect(() => {
-        document.title = `Portafolio | ${PAGE_TITLES[currentPage]} (${theme})`;
-    }, [currentPage, theme]);
+        document.title = `Portafolio | ${PAGE_TITLES[currentPage]}`;
+    }, [currentPage]);
     
     return (
-        <div className={`app app--${theme}`}>
-            <Header theme={theme} setTheme={setTheme} />
+        <div className="app">
+            <Header />
             <Nav currentPage={currentPage} onChangePage={setCurrentPage} />
             <Main currentPage={currentPage} />
             <Footer />
