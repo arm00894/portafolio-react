@@ -1,8 +1,4 @@
 export default function Header({ theme, setTheme }) {
-  function handleClick() {
-    setTheme((prev) => (prev === "light" ? "dark" : "light"));
-  }
-
   return (
     <header className="header">
       <div>
